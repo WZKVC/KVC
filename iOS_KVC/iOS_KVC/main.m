@@ -50,7 +50,6 @@ int main(int argc, const char * argv[]) {
         NSLog(@"最低成绩:%@", [student valueForKeyPath:@"students.@min.point"]);
         NSLog(@"平均成绩:%@", [student valueForKeyPath:@"students.@avg.point"]);
         NSLog(@"test");
-        NSLog(@"new");
     }
     return 0;
 }
