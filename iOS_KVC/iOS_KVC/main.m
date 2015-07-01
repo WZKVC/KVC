@@ -49,6 +49,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"最高成绩:%@", [student valueForKeyPath:@"students.@max.point"]);
         NSLog(@"最低成绩:%@", [student valueForKeyPath:@"students.@min.point"]);
         NSLog(@"平均成绩:%@", [student valueForKeyPath:@"students.@avg.point"]);
+        NSLog(@"test");
     }
     return 0;
 }
